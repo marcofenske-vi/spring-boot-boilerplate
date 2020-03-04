@@ -1,14 +1,14 @@
-package com.myCompanyName.myProjectName.authors.rest;
+package com.virtualidentity.firasproject.authors.rest;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
-import com.myCompanyName.myProjectName.common.rest.controller.BaseController;
-import com.myCompanyName.myProjectName.generated.AuthorsApi;
-import com.myCompanyName.myProjectName.generated.model.Author;
-import com.myCompanyName.myProjectName.generated.model.AuthorLinks;
-import com.myCompanyName.myProjectName.generated.model.AuthorList;
-import com.myCompanyName.myProjectName.generated.model.AuthorListLinks;
-import com.myCompanyName.myProjectName.generated.model.HalLink;
+import com.virtualidentity.firasproject.common.rest.controller.BaseController;
+import com.virtualidentity.firasproject.generated.AuthorsApi;
+import com.virtualidentity.firasproject.generated.model.Author;
+import com.virtualidentity.firasproject.generated.model.AuthorLinks;
+import com.virtualidentity.firasproject.generated.model.AuthorList;
+import com.virtualidentity.firasproject.generated.model.AuthorListLinks;
+import com.virtualidentity.firasproject.generated.model.HalLink;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import org.springframework.http.HttpStatus;

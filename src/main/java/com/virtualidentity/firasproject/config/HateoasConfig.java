@@ -1,4 +1,4 @@
-package com.myCompanyName.myProjectName.config;
+package com.virtualidentity.firasproject.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

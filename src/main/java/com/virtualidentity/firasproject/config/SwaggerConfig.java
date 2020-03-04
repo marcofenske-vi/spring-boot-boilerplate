@@ -1,4 +1,4 @@
-package com.myCompanyName.myProjectName.config;
+package com.virtualidentity.firasproject.config;
 
 import com.fasterxml.classmate.TypeResolver;
 import com.google.common.base.Predicate;
@@ -21,7 +21,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class SwaggerConfig {
 
   private static final String MODEL_REF_ERROR = "Error";
-  private String basePackage = "com.myCompanyName";
+  private String basePackage = "com.virtualidentity";
 
   @Bean
   public Docket api(TypeResolver typeResolver) {

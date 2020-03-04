@@ -1,12 +1,12 @@
-package com.myCompanyName.myProjectName.authors.rest;
+package com.virtualidentity.firasproject.authors.rest;
 
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import com.myCompanyName.myProjectName.ApiMatchers;
-import com.myCompanyName.myProjectName.WebMvcTest;
-import com.myCompanyName.myProjectName.generated.model.Author;
-import com.myCompanyName.myProjectName.generated.model.AuthorList;
-import com.myCompanyName.myProjectName.generated.model.Error;
+import com.virtualidentity.firasproject.ApiMatchers;
+import com.virtualidentity.firasproject.WebMvcTest;
+import com.virtualidentity.firasproject.generated.model.Author;
+import com.virtualidentity.firasproject.generated.model.AuthorList;
+import com.virtualidentity.firasproject.generated.model.Error;
 import org.junit.jupiter.api.Test;
 
 public class AuthorControllerTest extends WebMvcTest {
